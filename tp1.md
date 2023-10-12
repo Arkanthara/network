@@ -1,4 +1,5 @@
 # Pseudo-code for Stop-and-Wait protocol
+
 busy = false
 trame-number
 trame-total-number
@@ -70,4 +71,11 @@ linklayer.receive(trame):
             newtrame.type = NACK
             newtrame.ack.num = trame.number
             hd.send(newtrame)
-        
+
+
+
+Attention, il y a un système d'alarme !!!!!!!! Ajouter temporisateur !!!!!!!! On a un seul timer !!!!!!!
+
+
+
+MAC: Medium Access Control C'est une sous-couche de la liaison de donnée pour accéder à ... C'est dans cette couche MAC qu'on a ALOAH, 802.3, les protocoles à jetons, 802.11 etc...
