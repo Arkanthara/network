@@ -21,17 +21,20 @@ Le RTT (Round Trip Time) varie. (C'est le temps qui s'écoule entre le moment ou
 #### Réseaux locaux
 
 Réseau locaux:
+
 - Réseau dispersé sur une petite distance
 - Généralement privé
 - Plus d'informations peuvent être obtenues car on a la gestion du réseau
--> faibles distances de communications et délais de transmission borné
+  -> faibles distances de communications et délais de transmission borné
 
 Média de communication peut être:
+
 - un câble partagé par les stations hôtes et transportant des signaux électriques
 - des ondes électromagnétiques. On parle de radio-fréquence (RF) pour les ondes radios comprises entre 3KHz et 300GHz utilisés pour les radiocommunications.
-Dans les 2 cas, on parle de liaison à diffusion. Les stations hôtes se partagent le même canal de communication. (Il y en a qu'un seul qui parle sur le réseau)
+  Dans les 2 cas, on parle de liaison à diffusion. Les stations hôtes se partagent le même canal de communication. (Il y en a qu'un seul qui parle sur le réseau)
 
 Le média de communication peut aussi être
+
 - un ensemble de câbles reliant chaque station hôte à toutes les autres. Dans ce cas, on a un ensemble de liaisons point à poin.
 
 ##### Réseaux à diffusion ALOAH
@@ -47,6 +50,7 @@ Solution: 2 fréquences: une pour la transmission de Ohaou
 - station attend un temps fixe. Si un acquittement positif est recu d'Ohau pendant l'attente la transmission est finie, sinon retour au point 1.
 
 Protocole exécuté par Ohau est:
+
 - attendre une trame
 - si la trame est recue correctement, transmettre un acquittement positif
 - retour en 1
@@ -66,6 +70,7 @@ Si on superpose 2 processus de poissons de paramètre $\lambda, \beta$, le proce
 On attend $\lambda - exp$
 
 hypothèses:
+
 - longueur trame: T
 - stations saturées
 - transmissions indépendantes
@@ -79,7 +84,7 @@ S: débit effectif (trames transmises avec succès)
 
 Pour Aloha pur: $S = Ge^{-2G}$
 
-$e^{-2G}: probabilité qu'il n'y ait pas de trames transmises pendant la période 2 (durée de l'interval) -> probabilité qu'il n'y ait pas de collisions....????
+$e^{-2G}$: probabilité qu'il n'y ait pas de trames transmises pendant la période 2 (durée de l'interval) -> probabilité qu'il n'y ait pas de collisions....????
 
 On a en moyenne G points par seconde...
 
@@ -88,5 +93,3 @@ On a en moyenne G points par seconde...
 -> probabilité que la trame 3 soit transmise sans collision: $lim \epsilon -> 0 [t - 1, t - \epsilon[ \union ] t + \epsilon, t + 1] = e^{-G} e^{-G} = e^{-2G}$
 
 Pour slotted Aloha: $S = Ge^{-G}
-
-
