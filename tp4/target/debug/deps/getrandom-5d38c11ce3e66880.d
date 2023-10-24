@@ -1,0 +1,11 @@
+/home/darcy/Documents/exercises/network/tp4/target/debug/deps/getrandom-5d38c11ce3e66880.rmeta: /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/lib.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error_impls.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util_libc.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/use_file.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/linux_android.rs
+
+/home/darcy/Documents/exercises/network/tp4/target/debug/deps/getrandom-5d38c11ce3e66880.d: /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/lib.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error_impls.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util_libc.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/use_file.rs /home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/linux_android.rs
+
+/home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/lib.rs:
+/home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error.rs:
+/home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util.rs:
+/home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error_impls.rs:
+/home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util_libc.rs:
+/home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/use_file.rs:
+/home/darcy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/linux_android.rs:
